@@ -1,0 +1,22 @@
+[project]
+name="para-ai-research-agent"
+version ="0.1.0"
+description = "Agentic AI system for autnomous academic research and summarization"
+authors = [
+    {name = "Pankaj Kumar", email ="pankajkumar732298@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "langchain",
+    "langchain_google_genai",
+    "arxiv",
+    "streamlit"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
