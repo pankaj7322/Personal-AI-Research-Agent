@@ -13,7 +13,8 @@ dependencies = [
     "langchain",
     "langchain_google_genai",
     "arxiv",
-    "streamlit"
+    "fastapi",
+    "uvicorn"
 ]
 
 [build-system]
